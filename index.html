@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourav's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8e23005e06.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a> </li>
+                    <li> <a href="#about">About</a> </li>
+                    <li> <a href="#services">Services</a> </li>
+                    <li> <a href="#portfolio">Portfolio</a> </li>
+                    <li> <a href="#contect">Contact</a> </li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Cyber Security</p>
+                <h1>Hi, I'm <span> Gourav</span> <br> Kumar From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------About----------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="gourav.jpg.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus excepturi tempore esse minus
+                        cupiditate voluptates obcaecati aperiam ipsa voluptate quos, atque assumenda alias perspiciatis
+                        voluptatum eius quo ratione. Inventore, ipsam?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exprience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Cyber Security/Information Security</span><br></li>
+                            <li><span>SIEM/CISSP</span><br>Splunk/Malware Analysis</li>
+                            <li><span>Risk Analysis/Python Scripting</span><br>Cloud Security</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exprience">
+                        <ul>
+                            <li><span>Cyber Security</span><br>Fresher</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10 <sup>th</sup> PASS OUT 2019 from</span><br>S.V.M Patut</li>
+                            <li><span>12 <sup>th</sup> PASS OUT 2021 from</span><br>M.M Collage DadauPur</li>
+                            <li><span>2021 Addimisson B.tech (CSE 3 <sup>rd</sup> Year) </span><br>Dr. M.G.R Educational
+                                and Reaserch Institute</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------scrvices--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-bug"></i>
+                    <h2>Malware Analysis</h2>
+                    <p>Malware analysis is the process of understanding the behavior and purpose of a suspicious file or URL. The output of the analysis aids in the detection and mitigation of the potential threat.</p>
+                    <a href="https://www.crowdstrike.com/cybersecurity-101/malware/malware-analysis/">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h2>Risk Analysis</h2>
+                    <p>The term risk analysis refers to the assessment process that identifies the potential for any adverse events that may negatively affect organizations and the environment. Risk analysis is commonly performed by corporations (banks, construction groups, health care, etc.), governments, and nonprofits.</p>
+                    <a href="https://www.investopedia.com/terms/r/risk-analysis.asp">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gears"></i>
+                    <h2>Tools Master</h2>
+                    <p>Nexpose,Paros Proxy,Burp Suite,Nessus Professional,TrueCrypt,Metasploit,Kali Linux.</p>
+                    <a href="https://cyberexperts.com/cybersecurity-tools/#:~:text=27%20Top%20Cybersecurity%20Tools%20for%202023%201%20Penetration,6%20Tools%20for%20monitoring%20network%20security%20Splunk%20">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------portfolio------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Netflix app</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Speech to voice convertor</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>The app connects you to the talented people around the world. Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------contact------------>
+    <div id="contect">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="https://mail.google.com/mail/u/0/#inbox" class="a">
+                        <p><i class="fa-solid fa-paper-plane"></i>gk904424@gmail.com</p>
+                    </a>
+                    <p><i class="fa-solid fa-phone"></i> 7488644238</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100022496257217"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.instagram.com/_its_g0urav_kr/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/dashboard"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="my resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Enter your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="copyright">
+            <p>Copyright @ Kevin.Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
